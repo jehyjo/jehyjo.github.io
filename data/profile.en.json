@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "language": "en",
+    "name": "Jeon HyungJoon",
+    "role": "Robotics / Reinforcement Learning / Control",
+    "pageTitle": "Jeon HyungJoon",
+    "detailLabel": "View Details",
+    "footer": "(c) 2026 Jeon HyungJoon"
+  },
+  "navigation": {
+    "primary": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Research",
+        "href": "#research"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Extracurricular",
+        "href": "#extracurricular"
+      },
+      {
+        "label": "Awards",
+        "href": "#awards"
+      },
+      {
+        "label": "Certificates",
+        "href": "#certificates"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "CV",
+        "href": "#cv"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Jeon HyungJoon",
+    "ctas": [
+      {
+        "label": "Email",
+        "href": "mailto:jeon_hj@yonsei.ac.kr",
+        "kind": "email"
+      },
+      {
+        "label": "Download CV",
+        "href": "assets/docs/CV.pdf"
+      }
+    ]
+  },
+  "overview": {
+    "quickFacts": [
+      {
+        "label": "Education",
+        "school": "Yonsei University",
+        "major": "B.S. Mechanical Engineering & Computer Science",
+        "period": "Mar 2021 - Present"
+      }
+    ],
+    "interests": [
+      "Robotics",
+      "Robot Learning",
+      "Control",
+      "Computer Vision"
+    ],
+    "contactLinks": [
+      {
+        "label": "Email",
+        "href": "mailto:jeon_hj@yonsei.ac.kr",
+        "kind": "email"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/jehyjo",
+        "kind": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jeonhyungjoon/",
+        "kind": "linkedin"
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "entries": [
+      {
+        "id": "mlcs-lab",
+        "title": "Machine Learning and Control System (MLCS) Lab",
+        "period": "Sep 2025 - Mar 2026",
+        "place": "Yonsei University",
+        "role": "Undergraduate Intern, Advisor: Prof. Jongeun Choi",
+        "tags": [
+          "Machine Learning",
+          "Control",
+          "Robotics"
+        ],
+        "bullets": [
+          "3D reconstruction pipeline development using 3D vision deep learning models",
+          "Trajectory tracking controller implementation for real-robot experiments"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "entries": []
+  },
+  "projects": {
+    "title": "Projects",
+    "entries": [
+      {
+        "id": "umma",
+        "title": "UMMA, University Mobile Management Agent",
+        "period": "2026",
+        "place": "Yonsei University",
+        "bullets": [
+          "Autonomous mobile manipulator for building management tasks",
+          "ROS 2 based robot workspace for control, autonomy, hardware integration, and mission operation"
+        ],
+        "tags": [
+          "Mobile Manipulator",
+          "ROS 2"
+        ],
+        "thumbnail": {
+          "src": "assets/images/UMMA_thumbnail.jpg",
+          "alt": "UMMA thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/embed/kt8CM3tcnwI",
+            "aspectRatio": "16 / 9",
+            "displayWidth": "920px",
+            "alt": "UMMA project video",
+            "caption": "UMMA project video"
+          }
+        ],
+        "detailBlocks": [
+          {
+            "title": "Project Overview",
+            "items": [
+              "Autonomous mobile manipulator for building management tasks",
+              "ROS 2 based robot workspace for control, autonomy, hardware integration, and mission operation"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "https://github.com/UMMA-yonsei",
+            "kind": "github"
+          }
+        ]
+      },
+      {
+        "id": "dextra",
+        "title": "DEXTRA",
+        "period": "2025",
+        "bullets": [
+          "Humanoid robot walking control through reinforcement learning"
+        ],
+        "tags": [
+          "Humanoid",
+          "Locomotion",
+          "Reinforcement Learning"
+        ],
+        "thumbnail": {
+          "src": "assets/images/DEXTRA_thumbnail.png",
+          "alt": "DEXTRA thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [
+          {
+            "type": "video",
+            "src": "assets/images/DEXTRA_video.mp4",
+            "mime": "video/mp4",
+            "alt": "DEXTRA video",
+            "caption": "DEXTRA video"
+          },
+          {
+            "type": "embed",
+            "src": "https://www.instagram.com/p/DR9fw-FEi1L/embed",
+            "aspectRatio": "4 / 5",
+            "displayWidth": "540px",
+            "alt": "Yonsei AI Instagram post",
+            "caption": "Yonsei AI Instagram post"
+          }
+        ],
+        "detailBlocks": [
+          {
+            "title": "Hardware",
+            "media": [],
+            "items": [
+              "Open-source 3D model based frame printing and lower-body assembly",
+              "AX-18A Dynamixel actuator, embedded control board, and wiring setup"
+            ],
+            "links": []
+          },
+          {
+            "title": "Motion Retargeting",
+            "media": [],
+            "items": [
+              "SMPL, FBX, and BVH human motion data parsing and normalization",
+              "PoseLib IK-based retargeting for the DEXTRA joint structure",
+              ".pkl and .npz reinforcement learning reference motion dataset generation"
+            ],
+            "links": [
+              {
+                "label": "GitHub: gmr_dextra",
+                "href": "https://github.com/edipark/gmr_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Imitation Learning",
+            "media": [],
+            "items": [
+              "Isaac Sim and Isaac Lab based massively parallel simulation environment setup",
+              "PyTorch based PPO, DeepMimic, and AMP training architecture composition",
+              "Locomotion policy learning for motion tracking and disturbance robustness"
+            ],
+            "links": [
+              {
+                "label": "GitHub: mimickit_dextra",
+                "href": "https://github.com/edipark/mimickit_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Sim-to-Real",
+            "media": [],
+            "items": [
+              "Asymmetric Actor-Critic based privileged information training",
+              "LSTM state estimator design from joint state and IMU observations",
+              "DAgger based policy distillation from Teacher Policy to Student Policy"
+            ],
+            "links": [
+              {
+                "label": "GitHub: solo_dextra",
+                "href": "https://github.com/edipark/solo_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Real-Robot Control",
+            "media": [],
+            "items": [
+              "PyTorch model conversion to ONNX Runtime and embedded inference engine setup",
+              "Real-time Dynamixel SDK I/O loop implementation for low-latency motor state reading and target angle commands",
+              "Friction, damping, and communication latency parameter tuning"
+            ],
+            "links": [
+              {
+                "label": "GitHub: solo_hw",
+                "href": "https://github.com/edipark/solo_hw",
+                "kind": "github"
+              },
+              {
+                "label": "GitHub: dextra",
+                "href": "https://github.com/edipark/dextra",
+                "kind": "github"
+              }
+            ]
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "var-symposium",
+        "title": "VAR Symposium, Yonsei University",
+        "period": "2025",
+        "bullets": [
+          "Implemented PPO-based reinforcement learning for robotic soccer shooting tasks within a MuJoCo simulation environment."
+        ],
+        "tags": [
+          "MuJoCo",
+          "PPO",
+          "Reinforcement Learning"
+        ],
+        "thumbnail": {
+          "src": "assets/images/VAR_thumbnail.png",
+          "alt": "VAR Symposium thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [],
+        "detailBlocks": [
+          {
+            "title": "Technical Work",
+            "items": [
+              "MuJoCo simulation environment setup with crossbar, goalposts, ball, and two 21-DoF humanoids",
+              "PPO-based shooting and running agent training",
+              "Penalty kick agent training design through adversarial learning between shooting and goalkeeper agents"
+            ]
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "air-force-hackathon",
+        "title": "2024 Air Force Creative Innovation Idea Competition Hackathon AI Program",
+        "period": "2024",
+        "bullets": [
+          "Optimized object detection performance by fine-tuning YOLO",
+          "Optimized LLM performance through the development of a RAG pipeline"
+        ],
+        "tags": [
+          "YOLO",
+          "RAG",
+          "AI"
+        ],
+        "thumbnail": {
+          "src": "assets/images/AF_hackathon_thumbnail.jpg",
+          "alt": "Air Force Hackathon thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [],
+        "detailBlocks": [
+          {
+            "title": "Technical Work",
+            "items": [
+              "Object detection model implementation through YOLO fine-tuning",
+              "EDA, hyperparameter tuning, data augmentation, rebalancing, and ensemble application",
+              "RAG pipeline implementation for LLM performance improvement"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "https://github.com/air-force-hackathon",
+            "kind": "github"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "entries": [
+      {
+        "id": "air-force-service",
+        "title": "Republic of Korea Air Force",
+        "period": "Feb 2023 - Nov 2024",
+        "place": "Alternative Aero & Space Operations Center",
+        "role": "System Control & Management Assistant, 32nd Air Defence & Control Group",
+        "bullets": [
+          "Maintained the Master Control and Reporting Center System including Unix based server and information security equipment"
+        ],
+        "tags": [
+          "System Operations",
+          "Unix Server",
+          "Information Security"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "extracurricular": {
+    "title": "Extracurricular",
+    "groups": [
+      {
+        "title": "Clubs & Societies",
+        "entries": [
+          {
+            "id": "roboin",
+            "title": "Roboin, Robotics Club",
+            "period": "Sep 2022 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "2025.09 ~ 2026.03 | Executive Staff",
+              "2026.03 ~ Present | President",
+              "Projects: robotic arm, autonomous driving, humanoid"
+            ],
+            "tags": [
+              "Robotics",
+              "Leadership"
+            ],
+            "detailsReady": false
+          },
+          {
+            "id": "yai",
+            "title": "YAI, AI Student Society",
+            "period": "Jul 2025 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "2026.01 ~ Present | Executive Staff",
+              "Studied CV, RL, and Multimodal AI papers and worked on a Sim-to-Real RL project for humanoid locomotion"
+            ],
+            "tags": [
+              "Computer Vision",
+              "Reinforcement Learning",
+              "Multimodal AI"
+            ],
+            "detailsReady": false
+          },
+          {
+            "id": "ydmc",
+            "title": "YDMC, Yonsei Dream Major Conductor",
+            "period": "Mar 2025 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "Delivered invited lectures on the Mechanical Engineering major and provided mentoring for high school students."
+            ],
+            "tags": [
+              "Education Volunteer",
+              "Mentoring",
+              "Mechanical Engineering"
+            ],
+            "detailsReady": false
+          }
+        ]
+      },
+      {
+        "title": "Teaching & Mentoring",
+        "layout": "brief-list",
+        "entries": [
+          {
+            "id": "yongmun-leaders-day",
+            "what": "Major Club Leaders Day",
+            "place": "Yongmun High School",
+            "period": "Nov 2025",
+            "detailsReady": false
+          },
+          {
+            "id": "gimpo-ai-sw-mentoring",
+            "what": "Gimpo City-Yonsei AI · SW Club Mentoring",
+            "place": "Gimpo High School",
+            "period": "Mar 2026 - Jun 2026",
+            "detailsReady": false
+          },
+          {
+            "id": "fresh-me-day",
+            "what": "Fresh ME Day",
+            "place": "Yonsei University",
+            "period": "Mar 2026",
+            "detailsReady": false
+          }
+        ]
+      }
+    ]
+  },
+  "awards": {
+    "title": "Awards",
+    "entries": [
+      {
+        "id": "steamcup-award",
+        "title": "Merit Award, STEAMCUP IRC Turtlebot3 Autorace",
+        "period": "Nov 2025",
+        "tags": [
+          "Award",
+          "Robotics"
+        ],
+        "bullets": [
+          "Implemented autonomous driving pipeline using ROS2 and OpenCV"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates",
+    "items": [
+      {
+        "name": "Information Processing Industrial Engineer",
+        "issuer": "Human Resources Development Service of Korea",
+        "date": "Jun 14, 2024"
+      },
+      {
+        "name": "Linux Master Level 2",
+        "issuer": "Korea Information & Communication Agency",
+        "date": "Mar 29, 2024"
+      },
+      {
+        "name": "SQL Developer (SQLD)",
+        "issuer": "Korea Data Agency",
+        "date": "Dec 15, 2023"
+      },
+      {
+        "name": "Information Processing Technician",
+        "issuer": "Human Resources Development Service of Korea",
+        "date": "Jul 1, 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "label": "Programming Languages",
+        "items": [
+          "Python",
+          "C",
+          "C++",
+          "MATLAB",
+          "Java"
+        ]
+      },
+      {
+        "label": "Frameworks / Tools",
+        "items": [
+          "ROS1/2",
+          "Docker",
+          "IsaacGym",
+          "MuJoCo",
+          "PyTorch",
+          "Gazebo"
+        ]
+      },
+      {
+        "label": "Hardware",
+        "items": [
+          "Raspberry Pi",
+          "Jetson Nano",
+          "Arduino"
+        ]
+      }
+    ]
+  },
+  "cv": {
+    "eyebrow": "CV",
+    "title": "Curriculum Vitae",
+    "highlights": [],
+    "downloadLabel": "Download CV"
+  }
+}

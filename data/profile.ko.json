@@ -1,0 +1,543 @@
+{
+  "meta": {
+    "language": "ko",
+    "name": "전형준",
+    "role": "Robotics / Reinforcement Learning / Control",
+    "pageTitle": "전형준",
+    "detailLabel": "자세히 보기",
+    "footer": "(c) 2026 Jeon HyungJoon"
+  },
+  "navigation": {
+    "primary": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Research",
+        "href": "#research"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Extracurricular",
+        "href": "#extracurricular"
+      },
+      {
+        "label": "Awards",
+        "href": "#awards"
+      },
+      {
+        "label": "Certificates",
+        "href": "#certificates"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "CV",
+        "href": "#cv"
+      }
+    ]
+  },
+  "hero": {
+    "title": "전형준",
+    "ctas": [
+      {
+        "label": "Email",
+        "href": "mailto:jeon_hj@yonsei.ac.kr",
+        "kind": "email"
+      },
+      {
+        "label": "Download CV",
+        "href": "assets/docs/CV.pdf"
+      }
+    ]
+  },
+  "overview": {
+    "quickFacts": [
+      {
+        "label": "Education",
+        "school": "연세대학교",
+        "major": "기계공학 & 컴퓨터과학",
+        "period": "Mar 2021 - Present"
+      }
+    ],
+    "interests": [
+      "Robotics",
+      "Robot Learning",
+      "Control",
+      "Computer Vision"
+    ],
+    "contactLinks": [
+      {
+        "label": "Email",
+        "href": "mailto:jeon_hj@yonsei.ac.kr",
+        "kind": "email"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/jehyjo",
+        "kind": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jeonhyungjoon/",
+        "kind": "linkedin"
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "entries": [
+      {
+        "id": "mlcs-lab",
+        "title": "Machine Learning and Control System (MLCS) Lab",
+        "period": "Sep 2025 - Mar 2026",
+        "place": "Yonsei University",
+        "role": "학부생 인턴, 지도교수: 최종은 교수님",
+        "tags": [
+          "Machine Learning",
+          "Control",
+          "Robotics"
+        ],
+        "bullets": [
+          "3D vision deep learning model 기반 3D reconstruction 파이프라인 개발",
+          "실제 로봇 실험을 위한 trajectory tracking controller 구현"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "entries": []
+  },
+  "projects": {
+    "title": "Projects",
+    "entries": [
+      {
+        "id": "umma",
+        "title": "UMMA, University Mobile Management Agent",
+        "period": "2026",
+        "place": "Yonsei University",
+        "bullets": [
+          "건물 관리 업무를 위한 자율 이동형 모바일 매니퓰레이터 개발",
+          "ROS 2 기반 제어, 자율 동작, 하드웨어 연동 및 미션 운용 워크스페이스 구성"
+        ],
+        "tags": [
+          "Mobile Manipulator",
+          "ROS 2"
+        ],
+        "thumbnail": {
+          "src": "assets/images/UMMA_thumbnail.jpg",
+          "alt": "UMMA thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [
+          {
+            "type": "embed",
+            "src": "https://www.youtube.com/embed/kt8CM3tcnwI",
+            "aspectRatio": "16 / 9",
+            "displayWidth": "920px",
+            "alt": "UMMA project video",
+            "caption": "UMMA project video"
+          }
+        ],
+        "detailBlocks": [
+          {
+            "title": "Project Overview",
+            "items": [
+              "건물 관리 업무를 위한 자율 이동형 모바일 매니퓰레이터",
+              "ROS 2 기반 제어, 자율 동작, 하드웨어 연동 및 미션 운용 워크스페이스"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "https://github.com/UMMA-yonsei",
+            "kind": "github"
+          }
+        ]
+      },
+      {
+        "id": "dextra",
+        "title": "DEXTRA",
+        "period": "2025",
+        "bullets": [
+          "휴머노이드 로봇의 강화학습을 통한 보행제어"
+        ],
+        "tags": [
+          "Humanoid",
+          "Locomotion",
+          "Reinforcement Learning"
+        ],
+        "thumbnail": {
+          "src": "assets/images/DEXTRA_thumbnail.png",
+          "alt": "DEXTRA thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [
+          {
+            "type": "video",
+            "src": "assets/images/DEXTRA_video.mp4",
+            "mime": "video/mp4",
+            "alt": "DEXTRA video",
+            "caption": "DEXTRA video"
+          },
+          {
+            "type": "embed",
+            "src": "https://www.instagram.com/p/DR9fw-FEi1L/embed",
+            "aspectRatio": "4 / 5",
+            "displayWidth": "540px",
+            "alt": "Yonsei AI Instagram post",
+            "caption": "Yonsei AI Instagram post"
+          }
+        ],
+        "detailBlocks": [
+          {
+            "title": "Hardware",
+            "media": [],
+            "items": [
+              "오픈소스 3D 도면 기반 프레임 3D 프린팅 및 하체 조립",
+              "AX-18A Dynamixel 구동계, 임베디드 제어 보드, 전장 배선 셋업"
+            ],
+            "links": []
+          },
+          {
+            "title": "Motion Retargeting",
+            "media": [],
+            "items": [
+              "SMPL, FBX, BVH 인간 모션 데이터 파싱 및 정규화",
+              "PoseLib IK 기반 DEXTRA 관절 구조 맞춤 리타겟팅",
+              ".pkl, .npz 형식의 강화학습 참조 모션 데이터셋 생성"
+            ],
+            "links": [
+              {
+                "label": "GitHub: gmr_dextra",
+                "href": "https://github.com/edipark/gmr_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Imitation Learning",
+            "media": [],
+            "items": [
+              "Isaac Sim, Isaac Lab 기반 대규모 병렬 시뮬레이션 환경 구성",
+              "PyTorch 기반 PPO, DeepMimic, AMP 학습 구조 결합",
+              "모션 추종과 외란 강건성을 함께 고려한 보행 정책 학습"
+            ],
+            "links": [
+              {
+                "label": "GitHub: mimickit_dextra",
+                "href": "https://github.com/edipark/mimickit_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Sim-to-Real",
+            "media": [],
+            "items": [
+              "Asymmetric Actor-Critic 기반 privileged information 활용 학습",
+              "관절 상태와 IMU 관측 기반 LSTM 상태 추정기 설계",
+              "DAgger 기반 Teacher Policy에서 Student Policy로의 policy distillation"
+            ],
+            "links": [
+              {
+                "label": "GitHub: solo_dextra",
+                "href": "https://github.com/edipark/solo_dextra",
+                "kind": "github"
+              }
+            ]
+          },
+          {
+            "title": "Real-Robot Control",
+            "media": [],
+            "items": [
+              "PyTorch 모델의 ONNX Runtime 변환 및 임베디드 추론 엔진 구성",
+              "실시간 동작을 위한 Dynamixel SDK 기반 고속 모터 상태 읽기 및 target angle 명령 I/O 루프 구현",
+              "마찰, 댐핑, 통신 지연 파라미터 튜닝"
+            ],
+            "links": [
+              {
+                "label": "GitHub: solo_hw",
+                "href": "https://github.com/edipark/solo_hw",
+                "kind": "github"
+              },
+              {
+                "label": "GitHub: dextra",
+                "href": "https://github.com/edipark/dextra",
+                "kind": "github"
+              }
+            ]
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "var-symposium",
+        "title": "VAR Symposium, Yonsei University",
+        "period": "2025",
+        "bullets": [
+          "MuJoCo 시뮬레이션 환경 내 PPO 알고리즘 기반 로봇 축구 슈팅 강화학습 구현"
+        ],
+        "tags": [
+          "MuJoCo",
+          "PPO",
+          "Reinforcement Learning"
+        ],
+        "thumbnail": {
+          "src": "assets/images/VAR_thumbnail.png",
+          "alt": "VAR Symposium thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [],
+        "detailBlocks": [
+          {
+            "title": "Technical Work",
+            "items": [
+              "크로스바, 골포스트, 공, 21자유도 휴머노이드 2기 기반 MuJoCo 시뮬레이션 환경 구성",
+              "PPO 기반 shooting agent와 running agent 학습",
+              "shooting agent와 goalkeeper agent의 adversarial learning 기반 penalty kick agent 학습 설계"
+            ]
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "air-force-hackathon",
+        "title": "2024 공군 창의혁신 아이디어 공모 해커톤 AI 프로그램",
+        "period": "2024",
+        "bullets": [
+          "YOLO 파인튜닝을 통한 객체 탐지 성능 최적화",
+          "RAG 파이프라인 개발을 통한 LLM 성능 최적화"
+        ],
+        "tags": [
+          "YOLO",
+          "RAG",
+          "AI"
+        ],
+        "thumbnail": {
+          "src": "assets/images/AF_hackathon_thumbnail.jpg",
+          "alt": "Air Force Hackathon thumbnail"
+        },
+        "detailsReady": true,
+        "detailMedia": [],
+        "detailBlocks": [
+          {
+            "title": "Technical Work",
+            "items": [
+              "YOLO 파인튜닝 기반 객체 탐지 모델 구현",
+              "EDA, 하이퍼파라미터 튜닝, 데이터 증강, 리밸런싱, 앙상블 적용",
+              "LLM 성능 개선을 위한 RAG 파이프라인 구현"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "https://github.com/air-force-hackathon",
+            "kind": "github"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "entries": [
+      {
+        "id": "air-force-service",
+        "title": "Republic of Korea Air Force",
+        "period": "Feb 2023 - Nov 2024",
+        "role": "체계운용병,제32방공통제전대",
+        "bullets": [
+          "Unix 기반 서버, 정보보호 장비 등을 포함한 중앙방공통제체계 유지 보수"
+        ],
+        "tags": [
+          "System Operations",
+          "Unix Server",
+          "Information Security"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "extracurricular": {
+    "title": "Extracurricular",
+    "groups": [
+      {
+        "title": "Clubs & Societies",
+        "entries": [
+          {
+            "id": "roboin",
+            "title": "Roboin, 연세대학교 로봇학술동아리",
+            "period": "Sep 2022 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "2025.09 ~ 2026.03 | 임원진",
+              "2026.03 ~ 현재 | 회장",
+              "프로젝트: 로봇팔, 자율주행, 휴머노이드"
+            ],
+            "tags": [
+              "Robotics",
+              "Leadership"
+            ],
+            "detailsReady": false
+          },
+          {
+            "id": "yai",
+            "title": "YAI, 연세대학교 인공지능 학회",
+            "period": "Jul 2025 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "2026.01 ~ 현재 | 임원진",
+              "CV, RL, Multimodal AI 논문리딩 스터디 및 휴머노이드 보행을 위한 Sim-to-Real RL 프로젝트 진행"
+            ],
+            "tags": [
+              "Computer Vision",
+              "Reinforcement Learning",
+              "Multimodal AI"
+            ],
+            "detailsReady": false
+          },
+          {
+            "id": "ydmc",
+            "title": "YDMC, 연세전공알리미",
+            "period": "Mar 2025 - Present",
+            "place": "Yonsei University",
+            "bullets": [
+              "고등학생 대상 기계공학 전공 강연 및 멘토링"
+            ],
+            "tags": [
+              "Education Volunteer",
+              "Mentoring",
+              "Mechanical Engineering"
+            ],
+            "detailsReady": false
+          }
+        ]
+      },
+      {
+        "title": "Teaching & Mentoring",
+        "layout": "brief-list",
+        "entries": [
+          {
+            "id": "yongmun-leaders-day",
+            "what": "전공동아리 리더스 데이",
+            "place": "용문고등학교",
+            "period": "Nov 2025",
+            "detailsReady": false
+          },
+          {
+            "id": "gimpo-ai-sw-mentoring",
+            "what": "김포시-연세대 AI · SW 동아리 멘토링",
+            "place": "김포고등학교",
+            "period": "Mar 2026 - Jun 2026",
+            "detailsReady": false
+          },
+          {
+            "id": "fresh-me-day",
+            "what": "Fresh ME Day",
+            "place": "연세대학교",
+            "period": "Mar 2026",
+            "detailsReady": false
+          }
+        ]
+      }
+    ]
+  },
+  "awards": {
+    "title": "Awards",
+    "entries": [
+      {
+        "id": "steamcup-award",
+        "title": "STEAMCUP IRC Turtlebot3 Autorace 장려상",
+        "period": "Nov 2025",
+        "tags": [
+          "Award",
+          "Robotics"
+        ],
+        "bullets": [
+          "ROS2와 OpenCV를 이용한 자율주행 파이프라인 구현"
+        ],
+        "detailsReady": false
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates",
+    "items": [
+      {
+        "name": "정보처리산업기사",
+        "issuer": "한국산업인력공단",
+        "date": "Jun 14, 2024"
+      },
+      {
+        "name": "리눅스마스터 2급",
+        "issuer": "한국정보통신진흥협회",
+        "date": "Mar 29, 2024"
+      },
+      {
+        "name": "SQL 개발자 (SQLD)",
+        "issuer": "한국데이터산업진흥원",
+        "date": "Dec 15, 2023"
+      },
+      {
+        "name": "정보처리기능사",
+        "issuer": "한국산업인력공단",
+        "date": "Jul 1, 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "label": "Programming Languages",
+        "items": [
+          "Python",
+          "C",
+          "C++",
+          "MATLAB",
+          "Java"
+        ]
+      },
+      {
+        "label": "Frameworks / Tools",
+        "items": [
+          "ROS1/2",
+          "Docker",
+          "IsaacGym",
+          "MuJoCo",
+          "PyTorch",
+          "Gazebo"
+        ]
+      },
+      {
+        "label": "Hardware",
+        "items": [
+          "Raspberry Pi",
+          "Jetson Nano",
+          "Arduino"
+        ]
+      }
+    ]
+  },
+  "cv": {
+    "eyebrow": "CV",
+    "title": "Curriculum Vitae",
+    "highlights": [],
+    "downloadLabel": "Download CV"
+  }
+}
