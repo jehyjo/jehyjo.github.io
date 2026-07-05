@@ -575,6 +575,25 @@ h3 {
   margin-top: 14px;
 }
 
+.project-recognitions {
+  display: grid;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.project-recognition {
+  display: block;
+}
+
+.project-recognition-text {
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.6;
+}
+
 .card-actions {
   margin-top: 16px;
   align-items: center;
@@ -781,6 +800,27 @@ h3 {
   padding: 7px 10px;
   background: var(--surface);
   color: var(--text);
+}
+
+.detail-kicker {
+  display: block;
+  margin: 30px 0 18px;
+  padding: 16px 0 14px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  font-size: 1.28rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.detail-period {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  font-weight: 650;
+  line-height: 1.6;
 }
 
 .detail-block {

@@ -5,6 +5,7 @@
     "role": "Robotics / Reinforcement Learning / Control",
     "pageTitle": "Jeon HyungJoon",
     "detailLabel": "View Details",
+    "detailTypeLabel": "Project Description",
     "footer": "(c) 2026 Jeon HyungJoon"
   },
   "navigation": {
@@ -100,7 +101,7 @@
       {
         "id": "mlcs-lab",
         "title": "Machine Learning and Control System (MLCS) Lab",
-        "period": "Sep 2025 - Mar 2026",
+        "period": "Sep 2025 - May 2026",
         "place": "Yonsei University",
         "role": "Undergraduate Intern, Advisor: Prof. Jongeun Choi",
         "tags": [
@@ -109,8 +110,8 @@
           "Robotics"
         ],
         "bullets": [
-          "3D reconstruction pipeline development using 3D vision deep learning models",
-          "Trajectory tracking controller implementation for real-robot experiments"
+          "Implemented 3D reconstruction pipeline using 3D vision deep learning models",
+          "Implemented trajectory tracking controller for real-robot experiments"
         ],
         "detailsReady": false
       }
@@ -131,6 +132,11 @@
         "bullets": [
           "Autonomous mobile manipulator for building management tasks",
           "ROS 2 based robot workspace for control, autonomy, hardware integration, and mission operation"
+        ],
+        "recognitions": [
+          {
+            "text": "1st Place, Yonsei University Creative Product Design"
+          }
         ],
         "tags": [
           "Mobile Manipulator",
@@ -173,11 +179,11 @@
         "title": "DEXTRA",
         "period": "2025",
         "bullets": [
-          "Humanoid robot walking control through reinforcement learning"
+          "Humanoid robot gait control through reinforcement learning"
         ],
         "tags": [
           "Humanoid",
-          "Locomotion",
+          "Gait",
           "Reinforcement Learning"
         ],
         "thumbnail": {
@@ -208,7 +214,8 @@
             "media": [],
             "items": [
               "Open-source 3D model based frame printing and lower-body assembly",
-              "AX-18A Dynamixel actuator, embedded control board, and wiring setup"
+              "Dynamixel AX-18A twelve-actuator drive system setup",
+              "Raspberry Pi, U2D2, and electrical wiring setup"
             ],
             "links": []
           },
@@ -216,9 +223,9 @@
             "title": "Motion Retargeting",
             "media": [],
             "items": [
-              "SMPL, FBX, and BVH human motion data parsing and normalization",
-              "PoseLib IK-based retargeting for the DEXTRA joint structure",
-              ".pkl and .npz reinforcement learning reference motion dataset generation"
+              "AMASS / SMPL-X human gait motion preprocessing",
+              "GMR based DEXTRA_lowerbody motion retargeting",
+              "MuJoCo validation and MimicKit training data conversion"
             ],
             "links": [
               {
@@ -232,9 +239,9 @@
             "title": "Imitation Learning",
             "media": [],
             "items": [
-              "Isaac Sim and Isaac Lab based massively parallel simulation environment setup",
-              "PyTorch based PPO, DeepMimic, and AMP training architecture composition",
-              "Locomotion policy learning for motion tracking and disturbance robustness"
+              "Isaac Gym based DEXTRA lower-body parallel training environment setup",
+              "DeepMimic / PPO based reference motion tracking policy training",
+              "Gait tracking with pose, velocity, and foot orientation rewards"
             ],
             "links": [
               {
@@ -245,12 +252,14 @@
             ]
           },
           {
-            "title": "Sim-to-Real",
+            "title": "Sim-to-Real / State Estimation",
             "media": [],
             "items": [
-              "Asymmetric Actor-Critic based privileged information training",
-              "LSTM state estimator design from joint state and IMU observations",
-              "DAgger based policy distillation from Teacher Policy to Student Policy"
+              "Isaac Lab based DEXTRA AMP gait environment setup",
+              "AX-18A actuator model and domain randomization integration",
+              "Teacher policy training with 43D privileged observations",
+              "LSTM estimator design for 19D privileged state prediction from 24D encoder observations",
+              "DAgger based teacher policy to student policy distillation"
             ],
             "links": [
               {
@@ -261,12 +270,12 @@
             ]
           },
           {
-            "title": "Real-Robot Control",
+            "title": "Real-Robot Deployment",
             "media": [],
             "items": [
-              "PyTorch model conversion to ONNX Runtime and embedded inference engine setup",
-              "Real-time Dynamixel SDK I/O loop implementation for low-latency motor state reading and target angle commands",
-              "Friction, damping, and communication latency parameter tuning"
+              "PyTorch to ONNX Runtime conversion and Raspberry Pi 5 deployment",
+              "Dynamixel SDK based AX-18A joint read / target write loop implementation",
+              "Encoder read bottleneck diagnosis from unsupported Bulk Read and latency timer tuning"
             ],
             "links": [
               {
@@ -363,6 +372,7 @@
         "place": "Alternative Aero & Space Operations Center",
         "role": "System Control & Management Assistant, 32nd Air Defence & Control Group",
         "bullets": [
+          "Served as an Airman Sergeant with an honorable discharge",
           "Maintained the Master Control and Reporting Center System including Unix based server and information security equipment"
         ],
         "tags": [
@@ -403,7 +413,7 @@
             "place": "Yonsei University",
             "bullets": [
               "2026.01 ~ Present | Executive Staff",
-              "Studied CV, RL, and Multimodal AI papers and worked on a Sim-to-Real RL project for humanoid locomotion"
+              "Studied CV, RL, and Multimodal AI papers and worked on a Sim-to-Real RL project for humanoid gait"
             ],
             "tags": [
               "Computer Vision",
@@ -434,9 +444,9 @@
         "layout": "brief-list",
         "entries": [
           {
-            "id": "yongmun-leaders-day",
+            "id": "yongmoon-leaders-day",
             "what": "Major Club Leaders Day",
-            "place": "Yongmun High School",
+            "place": "Yongmoon High School",
             "period": "Nov 2025",
             "detailsReady": false
           },
@@ -444,14 +454,14 @@
             "id": "gimpo-ai-sw-mentoring",
             "what": "Gimpo City-Yonsei AI · SW Club Mentoring",
             "place": "Gimpo High School",
-            "period": "Mar 2026 - Jun 2026",
+            "period": "May 2026 - Jun 2026",
             "detailsReady": false
           },
           {
             "id": "fresh-me-day",
             "what": "Fresh ME Day",
             "place": "Yonsei University",
-            "period": "Mar 2026",
+            "period": "May 2026",
             "detailsReady": false
           }
         ]
@@ -498,6 +508,11 @@
         "name": "Information Processing Technician",
         "issuer": "Human Resources Development Service of Korea",
         "date": "Jul 1, 2022"
+      },
+      {
+        "name": "KBS Korean Language Proficiency Test Level 2-",
+        "issuer": "KBS, Korean Broadcasting System",
+        "date": "Aug 29, 2024 ~ Aug 28, 2026"
       }
     ]
   },

@@ -102,6 +102,25 @@
       .join("")}</div>`;
   }
 
+  function renderRecognitions(items = []) {
+    const recognitions = items.filter((item) => Boolean(item.text));
+    if (!recognitions.length) return "";
+
+    return `
+      <div class="project-recognitions">
+        ${recognitions
+          .map(
+            (item) => `
+              <div class="project-recognition">
+                <span class="project-recognition-text">${escapeHtml(item.text)}</span>
+              </div>
+            `
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
   function renderBullets(items = []) {
     if (!items.length) return "";
     return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
@@ -160,6 +179,7 @@
     const hasThumbnailSlot = options.showThumbnailSlot === true;
     const articleClass = hasThumbnailSlot ? "timeline-card has-thumbnail" : "timeline-card";
     const thumbnail = hasThumbnailSlot ? renderProjectThumbnail(entry) : "";
+    const recognitions = renderRecognitions(entry.recognitions);
 
     return `
       <article class="${articleClass}" data-entry-id="${escapeHtml(entry.id || "")}">
@@ -175,6 +195,7 @@
           </div>
           ${entry.summary ? `<p>${escapeHtml(entry.summary)}</p>` : ""}
           ${renderBullets(entry.bullets)}
+          ${recognitions}
           ${renderTags(entry.tags)}
           <div class="card-actions">
             ${renderDetailButton(entry)}
@@ -447,10 +468,15 @@
       .map((block) => renderDetailBlock(block))
       .join("");
     const links = entry.links?.length ? `<div class="detail-links">${renderInlineLinks(entry.links)}</div>` : "";
+    const detailTypeLabel = entry.detailTypeLabel || currentProfile.meta.detailTypeLabel || "Project Description";
+    const detailPeriod = entry.period ? `<p class="detail-period">${escapeHtml(entry.period)}</p>` : "";
 
     return `
-      <p class="eyebrow">${escapeHtml(entry.period || "")}</p>
       <h2 id="detailTitle">${escapeHtml(entry.title || "")}</h2>
+      ${detailPeriod}
+      <div class="detail-kicker">
+        <span>${escapeHtml(detailTypeLabel)}</span>
+      </div>
       ${entry.role ? `<p class="card-role">${escapeHtml(entry.role)}</p>` : ""}
       ${entry.summary ? `<p class="detail-summary">${escapeHtml(entry.summary)}</p>` : ""}
       ${renderDetailMedia(entry.detailMedia)}

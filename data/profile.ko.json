@@ -5,6 +5,7 @@
     "role": "Robotics / Reinforcement Learning / Control",
     "pageTitle": "전형준",
     "detailLabel": "자세히 보기",
+    "detailTypeLabel": "Project Description",
     "footer": "(c) 2026 Jeon HyungJoon"
   },
   "navigation": {
@@ -100,7 +101,7 @@
       {
         "id": "mlcs-lab",
         "title": "Machine Learning and Control System (MLCS) Lab",
-        "period": "Sep 2025 - Mar 2026",
+        "period": "Sep 2025 - May 2026",
         "place": "Yonsei University",
         "role": "학부생 인턴, 지도교수: 최종은 교수님",
         "tags": [
@@ -109,7 +110,7 @@
           "Robotics"
         ],
         "bullets": [
-          "3D vision deep learning model 기반 3D reconstruction 파이프라인 개발",
+          "3D 비전 딥러닝 모델 기반 3D reconstruction 파이프라인 개발",
           "실제 로봇 실험을 위한 trajectory tracking controller 구현"
         ],
         "detailsReady": false
@@ -131,6 +132,11 @@
         "bullets": [
           "건물 관리 업무를 위한 자율 이동형 모바일 매니퓰레이터 개발",
           "ROS 2 기반 제어, 자율 동작, 하드웨어 연동 및 미션 운용 워크스페이스 구성"
+        ],
+        "recognitions": [
+          {
+            "text": "연세대학교 창의제품설계 1위"
+          }
         ],
         "tags": [
           "Mobile Manipulator",
@@ -177,7 +183,7 @@
         ],
         "tags": [
           "Humanoid",
-          "Locomotion",
+          "보행",
           "Reinforcement Learning"
         ],
         "thumbnail": {
@@ -208,7 +214,8 @@
             "media": [],
             "items": [
               "오픈소스 3D 도면 기반 프레임 3D 프린팅 및 하체 조립",
-              "AX-18A Dynamixel 구동계, 임베디드 제어 보드, 전장 배선 셋업"
+              "Dynamixel AX-18A 12개 기반 구동계 구성",
+              "라즈베리파이, U2D2, 전장 배선 셋업"
             ],
             "links": []
           },
@@ -216,9 +223,9 @@
             "title": "Motion Retargeting",
             "media": [],
             "items": [
-              "SMPL, FBX, BVH 인간 모션 데이터 파싱 및 정규화",
-              "PoseLib IK 기반 DEXTRA 관절 구조 맞춤 리타겟팅",
-              ".pkl, .npz 형식의 강화학습 참조 모션 데이터셋 생성"
+              "AMASS / SMPL-X 기반 인간 보행 모션 전처리",
+              "GMR 기반 DEXTRA_lowerbody 모션 리타겟팅",
+              "MuJoCo 검증 및 MimicKit 학습 데이터 변환"
             ],
             "links": [
               {
@@ -232,9 +239,9 @@
             "title": "Imitation Learning",
             "media": [],
             "items": [
-              "Isaac Sim, Isaac Lab 기반 대규모 병렬 시뮬레이션 환경 구성",
-              "PyTorch 기반 PPO, DeepMimic, AMP 학습 구조 결합",
-              "모션 추종과 외란 강건성을 함께 고려한 보행 정책 학습"
+              "Isaac Gym 기반 DEXTRA lower-body 병렬 학습 환경 구성",
+              "DeepMimic / PPO 기반 reference motion tracking policy 학습",
+              "pose, velocity, foot orientation reward 기반 보행 추종"
             ],
             "links": [
               {
@@ -245,12 +252,14 @@
             ]
           },
           {
-            "title": "Sim-to-Real",
+            "title": "Sim-to-Real / State Estimation",
             "media": [],
             "items": [
-              "Asymmetric Actor-Critic 기반 privileged information 활용 학습",
-              "관절 상태와 IMU 관측 기반 LSTM 상태 추정기 설계",
-              "DAgger 기반 Teacher Policy에서 Student Policy로의 policy distillation"
+              "Isaac Lab 기반 DEXTRA AMP 보행 환경 구성",
+              "AX-18A actuator model 및 domain randomization 반영",
+              "43D privileged observation 기반 teacher policy 학습",
+              "24D encoder observation 기반 19D privileged state 예측 LSTM estimator 설계",
+              "DAgger 기반 teacher policy to student policy distillation"
             ],
             "links": [
               {
@@ -261,12 +270,12 @@
             ]
           },
           {
-            "title": "Real-Robot Control",
+            "title": "Real-Robot Deployment",
             "media": [],
             "items": [
-              "PyTorch 모델의 ONNX Runtime 변환 및 임베디드 추론 엔진 구성",
-              "실시간 동작을 위한 Dynamixel SDK 기반 고속 모터 상태 읽기 및 target angle 명령 I/O 루프 구현",
-              "마찰, 댐핑, 통신 지연 파라미터 튜닝"
+              "PyTorch 모델의 ONNX Runtime 변환 및 Raspberry Pi 5 배포",
+              "Dynamixel SDK 기반 AX-18A joint read / target write loop 구현",
+              "Bulk Read 미지원에 따른 encoder read bottleneck 진단 및 latency timer 튜닝"
             ],
             "links": [
               {
@@ -358,7 +367,7 @@
     "entries": [
       {
         "id": "air-force-service",
-        "title": "Republic of Korea Air Force",
+        "title": "대한민국 공군",
         "period": "Feb 2023 - Nov 2024",
         "role": "체계운용병,제32방공통제전대",
         "bullets": [
@@ -381,7 +390,7 @@
         "entries": [
           {
             "id": "roboin",
-            "title": "Roboin, 연세대학교 로봇학술동아리",
+            "title": "로보인, 연세대학교 로봇학술동아리",
             "period": "Sep 2022 - Present",
             "place": "Yonsei University",
             "bullets": [
@@ -433,7 +442,7 @@
         "layout": "brief-list",
         "entries": [
           {
-            "id": "yongmun-leaders-day",
+            "id": "yongmoon-leaders-day",
             "what": "전공동아리 리더스 데이",
             "place": "용문고등학교",
             "period": "Nov 2025",
@@ -443,14 +452,14 @@
             "id": "gimpo-ai-sw-mentoring",
             "what": "김포시-연세대 AI · SW 동아리 멘토링",
             "place": "김포고등학교",
-            "period": "Mar 2026 - Jun 2026",
+            "period": "May 2026 - Jun 2026",
             "detailsReady": false
           },
           {
             "id": "fresh-me-day",
             "what": "Fresh ME Day",
             "place": "연세대학교",
-            "period": "Mar 2026",
+            "period": "May 2026",
             "detailsReady": false
           }
         ]
@@ -497,6 +506,11 @@
         "name": "정보처리기능사",
         "issuer": "한국산업인력공단",
         "date": "Jul 1, 2022"
+      },
+      {
+        "name": "KBS 한국어능력시험 2-급",
+        "issuer": "KBS, 한국방송공사",
+        "date": "Aug 29, 2024 ~ Aug 28, 2026"
       }
     ]
   },
