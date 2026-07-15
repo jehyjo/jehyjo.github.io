@@ -135,6 +135,9 @@
         ],
         "recognitions": [
           {
+            "text": "2nd Place, Yonsei University Class Performance Idea Competition"
+          },           
+          {
             "text": "1st Place, Yonsei University Creative Product Design"
           }
         ],
@@ -471,6 +474,19 @@
   "awards": {
     "title": "Awards",
     "entries": [
+      {
+        "id": "class-idea-award",
+        "title": "2nd Place, Yonsei University Class Performance Idea Competition",
+        "period": "Jul 2026",
+        "tags": [
+          "Award",
+          "Robotics"
+        ],
+        "bullets": [
+          "Developed software for autonomous mobile manipulator for building management tasks"
+        ],
+        "detailsReady": false
+      },
       {
         "id": "steamcup-award",
         "title": "Merit Award, STEAMCUP IRC Turtlebot3 Autorace",

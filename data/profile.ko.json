@@ -135,6 +135,9 @@
         ],
         "recognitions": [
           {
+            "text": "수업성과 아이디어 경진대회 최우수상"
+          },
+          {
             "text": "연세대학교 창의제품설계 1위"
           }
         ],
@@ -469,6 +472,19 @@
   "awards": {
     "title": "Awards",
     "entries": [
+      {
+        "id": "class-idea-award",
+        "title": "2026 수업성과 아이디어 경진대회 최우수상",
+        "period": "Jul 2026",
+        "tags": [
+          "Award",
+          "Robotics"
+        ],
+        "bullets": [
+          "건물 관리 업무를 위한 자율 이동형 모바일 매니퓰레이터 소프트웨어 개발"
+        ],
+        "detailsReady": false
+      },
       {
         "id": "steamcup-award",
         "title": "STEAMCUP IRC Turtlebot3 Autorace 장려상",
